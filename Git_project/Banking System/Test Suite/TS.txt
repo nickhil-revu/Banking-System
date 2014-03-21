@@ -1,0 +1,49 @@
+Test#1: open 1000 123 555 login 444 login 333 login 555 pin 124 pin 123 logout login 123
+Test#2: open 400 123 666 login 666 pin 123 deposit 50 balance deposit 600 logout login 777 
+Test#3: open 500 123 666 login 666 logout login 777 login 666 pin 123 logout login 555
+Test#4: open 500 123 666 login 666 logout login 666 pin 124 pin 125 login 777 login 666 pin 124 pin 125 login 666 logout
+Test#5: open 500 123 666 login 666 pin 123 logout login 666 pin 123 balance logout
+Test#6: open 500 123 666 login 666 pin 124 logout login 666 pin 124 pin 123 balance balance deposit 50 deposit 100 logout
+Test#7: open 500 123 666 login 666 pin 123 deposit 510 deposit 200 withdraw 300 logout
+Test#8: open 1100 111 555 login 555 pin 111 withdraw 50 deposit 500 balance lock 111 balance balance unlock 111 withdraw 700 balance deposit 20 deposit 1000 withdraw 50 balance withdraw 50 lock 111 unlock 111 balance logout 
+Test#9: open 1100 111 555 login 555 pin 111 withdraw 200 lock 111 balance unlock 111 lock 111 unlock 111 logout
+Test#10: open 1000 111 555 login 555 pin 111 deposit 50 withdraw 45 deposit 100 logout
+Test#11: open 2000 222 456 login 456 pin 222 balance balance deposit 200 lock 222 unlock 222 logout
+Test#12: open 2000 222 456 login 456 pin 222 lock 222 unlock 222 lock 222 unlock 222 withdraw 500 withdraw 100 logout
+Test#13: open 1500 999 9876 login 9876 pin 999 deposit 50 deposit 50 balance withdraw 700 deposit 10 deposit 300 lock 999 unlock 999 deposit 100 logout
+Test#14: open 1500 999 9876 login 9876 pin 999 withdraw 500 withdraw 500 deposit 600 balance logout 
+Test#15: open 600 333 689 login 689 pin 333 deposit 100 lock 333 unlock 333 balance lock 333 unlock 333 deposit 120 logout
+Test#16: open 600 333 689 login 689 pin 333 lock 333 unlock 333 deposit 500 withdraw 300 logout
+Test#17: open -1 123 123 login 123 pin 123 deposit 50 withdraw 50 balance lock 111 unlock 111 logout 
+Test#18: open 100 123 123 login 321 pin 123 deposit 50 withdraw 50 balance lock 111 unlock 111 logout
+Test#19: open 100 123 123 login 123 pin 321 deposit 50 withdraw 50 balance lock 111 unlock 111 logout
+Test#20: open 1500 123 123 login 123 pin 123 withdraw 50 deposit 50 lock 111 unlock 123 open 1 1 1 login 1 pin 1
+Test#21: open 500 123 123 login 123 pin 123 withdraw 50 deposit 50 lock 111 unlock 123 open 1 1 1 login 1 pin 1
+Test#22: open 1000 123 123 login 123 pin 123 lock 123 unlock 321 lock 123 open 1 1 1 withdraw 20 deposit 20 pin 123 login 234 logout 
+Test#23: open -1 5678 222
+Test#24: open 2000 5678 222 login 222 deposit 50
+Test#25: open 1100 1234 222 login 222 pin 1234 lock 1234 deposit 100
+Test#26: open 400 666 888 login 888 pin 666 deposit -100
+Test#27: open 1100 111 222 login 222 pin 111 deposit -100
+Test#28: open 500 111 555 login 555 withdraw 50
+Test#29: open 1100 1234 222 login 222 pin 1234 lock 1234 withdraw 50
+Test#30: open 400 666 888 login 888 pin 666 withdraw -100
+Test#31: open 500 111 222 login 222 pin 111 withdraw 1000
+Test#32: open 500 111 222 login 222 pin 111 withdraw 50 logout
+Test#33: open 2000 678 876 login 876 pin 876 balance
+Test#34: open 2000 678 876 login 876 pin 876 lock 678
+Test#35: open 500 1 1 login 1 pin 1 lock 2
+Test#36: open 1000 123 456 login 456 pin 1234 unlock 123
+Test#37: open 1000 123 456 login 456 pin 123 lock 123 unlock 321
+Test#38: open 1000 123 456 login 456 pin 123 unlock 123
+Test#39: open 1000 123 456 login 456 pin 123 lock 1 unlock 1
+Test#40: open 0 111 333 login 333
+Test#41: open 1100 777 333 login 33
+Test#42: open 7000 111 777 lock 111 logout
+Test#43: open 100 111 777 logout
+Test#44: open 5000 111 777 login 777 pin 111 lock 111 logout
+Test#45: open 1000 221 123 pin 221
+Test#46: open 1000 212 123 login 123 pin 213
+Test#47: open 1000 212 123 login 123 pin 213 pin 123
+Test#48: open 1000 212 123 login 123 pin 212 lock 212 lock 212
+$$
